@@ -74,18 +74,22 @@ max-width: 125px;
 margin: 50px auto;
 }
 
+#tt-logos img{
+vertical-align: middle;
+}
+
 .tt-partners{
 margin: 0 auto;
 }
 
 .tt-partners img{
-width: 80%;
+width: 125px;
 padding: 25px 0;
 display: block;
 filter: grayscale(100%);
 }
 .tt-organizers img{
-width: 125px;
+width: 175px;
 padding: 25px 0;
 display: block;
 filter: grayscale(100%);
@@ -106,10 +110,12 @@ box-sizing: border-box;
 .tt-theme{
 font-weight: lighter;
 text-transform: uppercase;
-font-size: 26px;
+font-size: 28px;
 line-height: 1.25;
 letter-spacing: 2px;
 margin: 25px 0;
+height: 50%;
+margin: 25% 0;
 }
 
 
@@ -127,9 +133,12 @@ color: grey;
 }
 
 .tt-date{
-font-size: 18px;
+font-family: 'Calibri', sans-serif;
+font-size: 20px;
 text-transform: uppercase;
 letter-spacing: 1.2px;
+font-weight: normal;
+padding: 10px 0;
 }
 
 .tt-contact::before{
@@ -151,6 +160,7 @@ line-height: 1.25;
 .tt-section-1{
 background-color: #EEA105;
 color: white;
+padding: 25px 50px;
 }
 
 .tt-section-1 p{
@@ -167,6 +177,27 @@ color: white;
 text-transform: uppercase;
 font-size: 20px;
 letter-spacing: 1.1px;
+}
+
+.tt-section-2 a:hover{
+color: #EEA105;
+}
+
+.tt-section-2-sub{
+background-color: #f9f9f9;
+height: 200px;
+display: flex;
+}
+
+.tt-section-2-sub div{
+flex: 1;
+}
+
+.tt-section-2-sub div img{
+width: 50%;
+height: 100px;
+vertical-align: middle;
+margin: 25%;
 }
 
 
@@ -225,29 +256,20 @@ padding: 25px;
 }
 
 #tt-logos img{
-vertical-align: middle;
 display: inline-block;
+padding: 25px 15px;
 }
 
 .tt-organizers{
 max-width: 75%;
 margin: 0 auto 20px auto;
-
-}
-
-.tt-organizers img{
-padding: 0 25px;
-width: 200px;
 }
 
 .tt-partners{
-width: 100%;
+padding: 0 25px;
 }
 
-.tt-partners img{
-padding: 25px 12px;
-width: 70%;
-}
+
 
 
 
@@ -266,18 +288,14 @@ grid-row: 1;
 grid-column: 1;
 z-index:1;
 border-bottom: solid white 1px;
-height: 400px;
-}
-
-.tt-section-1 p{
-max-width: 250px;
+padding: 25px 75px;
 }
 
 .tt-section-2{
 grid-column: 1;
 grid-row: 2;
 margin-top: -75px;
-/*transform: skew(0deg, -11deg);*/
+transform: skew(0deg, -11deg);
 z-index: 0;
 height: 250px;
 outline: dotted 1px #EEA105;
@@ -285,7 +303,7 @@ outline-offset: 10px;
 }
 
 .tt-section-2 p{
-/*transform: skew(-0deg, 11deg);*/
+transform: skew(-0deg, 11deg);
 padding-top: 100px;
 }
 
@@ -329,6 +347,7 @@ background-repeat: no-repeat;
 .tt-page .tt-section-1{
 border: none;
 height: 125px;
+padding: 50px 75px;
 }
 
 .tt-page-2{
@@ -350,6 +369,12 @@ color: black;
 font-weight: normal;
 letter-spacing: 0px;
 padding: 10px 0;
+}
+
+.tt-resources-hr {
+width: 50%;
+border-top: solid 0.4px #EEA105;
+margin: 25px 0px;
 }
 
 
@@ -397,9 +422,10 @@ height: 400px;
 
 .tt-section-1 h2{
 color: white;
-margin: 100px 0;
-font-size: 28px;
+margin: 25% 0;
+font-size: 35px;
 text-align: center;
+height: 50%;
 }
 
 .tt-resources{
