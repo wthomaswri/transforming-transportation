@@ -45,7 +45,7 @@ display: none;
 }
 
 nav ul{
-margin: 25px 0 0 0;
+margin: 15px 0 0 0;
 padding: 0;
 }
 
@@ -70,27 +70,32 @@ vertical-align: middle;
 }
 
 #tt-logos{
-max-width: 125px;
-margin: 50px auto;
+max-width: 50%;
+margin: 25px auto;
 }
+
+.tt-organizers, .tt-partners{
+margin: 25px 0;
+}
+
 
 #tt-logos img{
 vertical-align: middle;
 }
 
-.tt-partners{
-margin: 0 auto;
-}
 
 .tt-partners img{
 width: 125px;
 padding: 25px 0;
+margin: 0 auto;
 display: block;
 filter: grayscale(100%);
 }
+
 .tt-organizers img{
 width: 175px;
 padding: 25px 0;
+margin: 0 auto;
 display: block;
 filter: grayscale(100%);
 }
@@ -368,7 +373,7 @@ font-size: 18px;
 color: black;
 font-weight: normal;
 letter-spacing: 0px;
-padding: 10px 0;
+padding: 25px 0;
 }
 
 .tt-resources-hr {
@@ -377,9 +382,13 @@ border-top: solid 0.4px #EEA105;
 margin: 25px 0px;
 }
 
-
 .tt-resources a{
 color: black;
+}
+
+
+.tt-page-2 a{
+border-bottom: solid 1px #EEA105;
 }
 
 .tt-section-1 h2{
