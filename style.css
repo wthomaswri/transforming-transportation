@@ -1,0 +1,449 @@
+/*GENERAL ELEMENTS*/
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 'Helvetica Neue',sans-serif;
+}
+
+
+a{
+text-decoration: none;
+}
+
+
+h2{
+color: #EEA105;
+font-size: 24px;
+font-weight: lighter;
+letter-spacing: 1.2px;
+}
+
+
+
+/*HEADER AND FOOTER*/
+
+header{
+width: 100%;
+position: fixed;
+top: 0;
+background-color: white;
+z-index: 2;
+padding: 50px;
+}
+header:hover nav{
+display: block;
+}
+
+#tt-header .tt-logo{
+width: 175px;
+}
+nav{
+display: none;
+}
+
+nav ul{
+margin: 15px 0 0 0;
+padding: 0;
+}
+
+nav ul li{
+display: block;
+padding: 12px 0px;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 12px;
+}
+
+nav ul li a{
+color: black;
+}
+nav ul li a:hover{
+color: #EEA105;
+transition: all ease 0.7s;
+}
+nav img{
+width: 20px;
+vertical-align: middle;
+}
+
+#tt-logos{
+max-width: 50%;
+margin: 25px auto;
+}
+
+.tt-organizers, .tt-partners{
+margin: 25px 0;
+}
+
+
+#tt-logos img{
+vertical-align: middle;
+}
+
+
+.tt-partners img{
+width: 125px;
+padding: 25px 0;
+margin: 0 auto;
+display: block;
+filter: grayscale(100%);
+}
+
+.tt-organizers img{
+width: 175px;
+padding: 25px 0;
+margin: 0 auto;
+display: block;
+filter: grayscale(100%);
+}
+
+/*BODY*/
+#tt-main-content-container{
+position: relative;
+top: 150px;
+margin-bottom: 150px;
+}
+.tt-section{
+padding: 50px;
+box-sizing: border-box;
+}
+
+
+.tt-theme{
+font-weight: lighter;
+text-transform: uppercase;
+font-size: 28px;
+line-height: 1.25;
+letter-spacing: 2px;
+margin: 25px 0;
+height: 50%;
+margin: 25% 0;
+}
+
+
+.tt-font-bold{
+font-family: 'Helvetica', sans-serif;
+font-weight: normal !important;
+letter-spacing: 1.05px;
+}
+
+.tt-hash{
+font-family: 'Helvetica', sans-serif;
+font-weight: bold !important;
+font-size: 20px;
+color: grey;
+}
+
+.tt-date{
+font-family: 'Calibri', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+font-weight: normal;
+padding: 10px 0;
+}
+
+.tt-contact::before{
+content: url('../files/tt-mail-icon.svg');
+vertical-align: middle;
+padding: 5px;
+}
+
+
+
+.tt-intro{
+font-size: 20px;
+color: black;
+font-weight: light;
+letter-spacing: 1;
+line-height: 1.25;
+}
+
+.tt-section-1{
+background-color: #EEA105;
+color: white;
+padding: 25px 50px;
+}
+
+.tt-section-1 p{
+padding: 15px 0;
+max-width: 450px;
+}
+
+.tt-section-2{
+background-color: grey;
+height: 125px;
+}
+.tt-section-2 a{
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 1.1px;
+}
+
+.tt-section-2 a:hover{
+color: #EEA105;
+}
+
+.tt-section-2-sub{
+background-color: #f9f9f9;
+height: 200px;
+display: flex;
+}
+
+.tt-section-2-sub div{
+flex: 1;
+}
+
+.tt-section-2-sub div img{
+width: 50%;
+height: 100px;
+vertical-align: middle;
+margin: 25%;
+}
+
+
+.tt-section-3{
+background-image: url('../files/tt-header-4.jpg');
+background-repeat: norepeat;
+background-size: cover;
+background-position: center;
+height: 300px;
+}
+.tt-section-4{
+letter-spacing: 1.05px;
+font-weight: lighter;
+font-size: 16px;
+line-height: 1.5;
+}
+.tt-section-4 p{
+padding: 25px 0;
+}
+.tt-section-4 img{
+width: 80%;
+margin: 25px 0;
+}
+
+@media (min-width: 720px){
+/*HEADER AND FOOTER*/
+header{
+padding: 50px 25px;
+}
+
+.tt-logo{
+float: left;
+margin: 0 50px;
+}
+nav{
+float: right;
+display: block;
+margin: 0px 50px 0px 0px;
+}
+
+nav ul li{
+display: inline-block;
+padding: 0px 15px;
+}
+
+#tt-logos{
+grid-column: 2/4;
+grid-row: 3;
+max-width: 100%;
+padding: 0 50px;
+margin: 0;
+}
+
+#tt-logos h2{
+padding: 25px;
+}
+
+#tt-logos img{
+display: inline-block;
+padding: 25px 15px;
+}
+
+.tt-organizers{
+max-width: 75%;
+margin: 0 auto 20px auto;
+}
+
+.tt-partners{
+padding: 0 25px;
+}
+
+
+
+
+
+/*BODY*/
+#tt-main-content-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+position: relative;
+top: 150px;
+}
+.tt-section{
+padding: 50px 75px;
+}
+.tt-section-1{
+grid-row: 1;
+grid-column: 1;
+z-index:1;
+border-bottom: solid white 1px;
+padding: 25px 75px;
+}
+
+.tt-section-2{
+grid-column: 1;
+grid-row: 2;
+margin-top: -75px;
+transform: skew(0deg, -11deg);
+z-index: 0;
+height: 250px;
+outline: dotted 1px #EEA105;
+outline-offset: 10px;
+}
+
+.tt-section-2 p{
+transform: skew(-0deg, 11deg);
+padding-top: 100px;
+}
+
+.tt-section-3{
+grid-column: 2/4;
+grid-row: 1;
+height: auto;
+}
+
+.tt-section-4{
+grid-row: 2;
+grid-column: 2/4;
+padding: 50px 75px 0px 75px !important;
+}
+
+}
+
+/*OTHER PAGES*/
+
+#tt-main-content-container.tt-page{
+margin-bottom: 0;
+}
+
+.tt-location{
+display: none;
+}
+.tt-section-2.tt-page-2{
+display: none;
+}
+
+.tt-general-info{
+background-image: url('../files/world-bank-header.jpg');
+background-position: center;
+}
+.tt-section-3.tt-page-2{
+background: url('../files/tt-resources-header.jpg');
+background-position: top;
+background-repeat: no-repeat;
+}
+
+.tt-page .tt-section-1{
+border: none;
+height: 125px;
+padding: 50px 75px;
+}
+
+.tt-page-2{
+background: none;
+}
+
+.tt-resources{
+padding: 50px;
+}
+
+
+.tt-resources p{
+padding: 7px 0;
+line-height: 1.25;
+}
+.tt-resources h2{
+font-size: 18px;
+color: black;
+font-weight: normal;
+letter-spacing: 0px;
+padding: 25px 0;
+}
+
+.tt-resources-hr {
+width: 50%;
+border-top: solid 0.4px #EEA105;
+margin: 25px 0px;
+}
+
+.tt-resources a{
+color: black;
+}
+
+
+.tt-page-2 a{
+border-bottom: solid 1px #EEA105;
+}
+
+.tt-section-1 h2{
+color: white;
+font-size: 24px;
+text-align: center;
+}
+.tt-resources a:hover{
+color: #EEA105;
+}
+
+.tt-download{
+border: solid #EEA105 0.5px;
+border-radius: 15px;
+padding: 10px;
+margin: 25px 0;
+width: 175px;
+text-align: center;
+font-size: 16px;
+}
+.tt-download a{
+color: #EEA105;
+}
+.tt-download:hover{
+background-color: #EEA105;
+}
+.tt-download:hover a{
+color: white;
+}
+
+
+@media (min-width: 720px){
+.tt-page{
+margin-bottom: 50px !important;
+}
+
+.tt-page .tt-section-1{
+height: 400px;
+}
+
+.tt-section-1 h2{
+color: white;
+margin: 25% 0;
+font-size: 35px;
+text-align: center;
+height: 50%;
+}
+
+.tt-resources{
+padding: 50px 25px !important;
+}
+
+.tt-page.tt-section-4.tt-section{
+padding: 0;
+}
+
+
+}
