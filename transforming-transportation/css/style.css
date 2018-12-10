@@ -310,7 +310,7 @@ padding: 0 25px;
 display: grid;
 display: -ms-grid;
 grid-template-columns: repeat(3, 1fr);
--ms-grid-template-columns: repeat(3, 1fr);
+-ms-grid-columns: repeat(3, 1fr);
 position: relative;
 top: 150px;
 }
