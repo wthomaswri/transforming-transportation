@@ -1,18 +1,23 @@
-/*GENERAL ELEMENTS*/
+/*GENERAL*/
+
 *{
-margin: 0;
-padding: 0;
+margin: 0;;
+padding:0;
 }
 
 body{
-font-family: 'Helvetica Neue',sans-serif;
+font-family: 'Helvetica Neue', sans-serif;
+background-color: white;
+overflow-x: hidden;
 }
 
+p{
+padding: 15px 0;
+}
 
 a{
 text-decoration: none;
 }
-
 
 h2{
 color: #EEA105;
@@ -21,9 +26,7 @@ font-weight: lighter;
 letter-spacing: 1.2px;
 }
 
-
-
-/*HEADER AND FOOTER*/
+/*HEADER*/
 
 header{
 width: 100%;
@@ -45,6 +48,7 @@ font-size: 30px;
 padding: 0 25px;
 color: grey;
 cursor: pointer;
+top: 40px;
 }
 
 input{
@@ -98,6 +102,7 @@ margin: 25px 0;
 
 #tt-logos img{
 vertical-align: middle;
+display: block;
 }
 
 
@@ -114,19 +119,66 @@ filter: grayscale(100%);
 width: 175px;
 padding: 25px 0;
 margin: 0 auto;
-display: block;
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 }
 
+
 /*BODY*/
-#tt-main-content-container{
+
+#main-body{
+width: 100%;
 position: relative;
-top: 150px;
-margin-bottom: 150px;
+top: 134px;
 }
+
+#section-1{
+color: white;
+}
+
+#section-1-1{
+background-color: #EEA105;
+box-sizing: border-box;
+height: 100%;
+}
+
+#section-1-2{
+background-image: url('../files/tt-home-hero.jpg');
+background-size: cover;
+background-position: center;
+height: 300px;
+}
+
+#section-2-1{
+background-color: grey;
+height: auto;
+color: white
+}
+
+
+#section-2-1 a{&mdash;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 1.1px;
+padding: 0px;
+}
+
+#section-2-1 a:hover{
+color: #EEA105;
+transition: all ease 1s;
+}
+
+#section-2-2{
+letter-spacing: 1.05px;
+font-weight: lighter;
+font-size: 16px;
+line-height: 1.5;
+}
+
+
 .tt-section{
-padding: 50px;
+padding: 25px 50px;
 box-sizing: border-box;
 }
 
@@ -137,11 +189,13 @@ text-transform: uppercase;
 font-size: 28px;
 line-height: 1.25;
 letter-spacing: 2px;
-margin: 25px 0;
-height: 50%;
-margin: 25% 0;
+padding: 100px 50px !important;
 }
 
+.tt-section{
+padding: 50px;
+box-sizing: border-box;
+}
 
 .tt-font-bold{
 font-family: 'Helvetica', sans-serif;
@@ -149,11 +203,12 @@ font-weight: normal !important;
 letter-spacing: 1.05px;
 }
 
-.tt-hash{
-font-family: 'Helvetica', sans-serif;
-font-weight: bold !important;
+.tt-intro{
 font-size: 20px;
-color: grey;
+color: black;
+font-weight: lighter;
+letter-spacing: 1px;
+line-height: 1.25;
 }
 
 .tt-date{
@@ -171,83 +226,18 @@ vertical-align: middle;
 padding: 5px;
 }
 
-
-
-.tt-intro{
+.tt-hash{
+font-family: 'Helvetica', sans-serif;
+font-weight: bold !important;
 font-size: 20px;
-color: black;
-font-weight: lighter;
-letter-spacing: 1px;
-line-height: 1.25;
-}
-
-.tt-section-1{
-background-color: #EEA105;
-color: white;
-padding: 25px 50px;
-}
-
-.tt-section-1 p{
-padding: 15px 0;
-max-width: 450px;
-}
-
-.tt-section-2{
-background-color: grey;
-height: 125px;
-}
-.tt-section-2 a{
-color: white;
-text-transform: uppercase;
-font-size: 20px;
-letter-spacing: 1.1px;
-}
-
-.tt-section-2 a:hover{
-color: #EEA105;
-}
-
-.tt-section-2-sub{
-background-color: #f9f9f9;
-height: 200px;
-display: flex;
-}
-
-.tt-section-2-sub div{
-flex: 1;
-}
-
-.tt-section-2-sub div img{
-width: 50%;
-height: 100px;
-vertical-align: middle;
-margin: 25%;
+color: grey;
 }
 
 
-.tt-section-3{
-background-image: url('../files/tt-header-4.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 300px;
-}
-.tt-section-4{
-letter-spacing: 1.05px;
-font-weight: lighter;
-font-size: 16px;
-line-height: 1.5;
-}
-.tt-section-4 p{
-padding: 25px 0;
-}
-.tt-section-4 img{
-width: 80%;
-margin: 25px 0;
-}
+@media screen and (min-width: 700px){
 
-@media only screen and (min-width: 720px){
-/*HEADER AND FOOTER*/
+/*HEADER*/
+
 header{
 padding: 50px 25px;
 }
@@ -274,17 +264,13 @@ padding: 0px 15px;
 }
 
 #tt-logos{
-grid-row: 3;
-grid-column: 2/4;
--ms-grid-row: 3;
--ms-grid-column: 2/4;
 max-width: 100%;
-padding: 0 50px;
+padding: 25px 0;
 margin: 0;
 }
 
 #tt-logos h2{
-padding: 25px;
+padding-top: 25px;
 }
 
 #tt-logos img{
@@ -293,7 +279,7 @@ padding: 25px 15px;
 }
 
 .tt-organizers{
-max-width: 75%;
+max-width: 70%;
 margin: 0 auto 20px auto;
 }
 
@@ -301,96 +287,139 @@ margin: 0 auto 20px auto;
 padding: 0 25px;
 }
 
-
-
-
-
 /*BODY*/
-#tt-main-content-container{
-display: grid;
-display: -ms-grid;
-grid-template-columns: repeat(3, 1fr);
--ms-grid-columns: repeat(3, 1fr);
-position: relative;
-top: 150px;
-}
+
 .tt-section{
 padding: 50px 75px;
 }
-.tt-section-1{
-grid-row: 1;
-grid-column: 1;
--ms-grid-row: 1;
--ms-grid-column: 1;
-z-index:1;
-border-bottom: solid white 1px;
-padding: 25px 75px;
+
+#main-body{
+top: 150px;
 }
 
-.tt-section-2{
-grid-row: 2;
-grid-column: 1;
--ms-grid-row: 2;
--ms-grid-column: 1;
-margin-top: -75px;
-transform: skew(0deg, -11deg);
--webkit-transform: skew(0deg, -11deg);
--ms-transform: skew(0deg, -11deg);
-z-index: 0;
-height: 250px;
+.tt-theme{
+font-size: 30px;
+}
+
+#section-1{
+width: 100vw;
+height: 450px;
+}
+
+#section-2{
+clear: both;
+width: 100vw;
+}
+
+
+#section-1-1{
+height: 100%;
+}
+#section-1-2{
+height: 100%;
+}
+
+#section-1-1, #section-2-1{
+float: left;
+width: 35vw;
+}
+
+#section-1-2, #section-2-2{
+width: 65vw;
+float: right;
+}
+
+
+#section-2-1{
+height: 150px;
 outline: dotted 1px #EEA105;
 outline-offset: 10px;
 }
 
-.tt-section-2 p{
-transform: skew(-0deg, 11deg);
--webkit-transform: skew(-0deg, 11deg);
--ms-transform: skew(-0deg, 11deg);
-padding-top: 100px;
+#section-2-2 p{
+padding: 20px 0px;
 }
 
-.tt-section-3{
-grid-row: 1;
-grid-column: 2/4;
--ms-grid-row: 1;
--ms-grid-column: 2/4;
-height: auto;
-}
-
-.tt-section-4{
-grid-row: 2;
-grid-column: 2/4;
--ms-grid-row: 2;
--ms-grid-column: 2/4;
-padding: 50px 75px 0px 75px !important;
-}
 
 }
 
-/*OTHER PAGES*/
 
-#tt-main-content-container.tt-page{
+@media screen and (max-width: 1132px) and (min-width: 699px){
+
+#section-1{
+height: 400px;
+}
+
+
+#section-1-1{
+width: 40vw;
+}
+
+#section-1-2{
+width: 60vw;
+}
+
+#section-2-1{
+width: 40vw;
+}
+
+#section-2-2{
+width: 60vw;
+}
+
+.tt-theme{
+font-size: 2.75vw;
+}
+
+.tt-date{
+font-size: 2vw;
+}
+
+
+}
+
+@media screen and (min-width: 1600px){
+.tt-theme{
+padding: 0 75px !important;
+margin: 25% 0;
+height: 50%;
+}
+
+}
+
+
+/*INFORMATION & RESOURCES PAGE*/
+
+
+#main-body{
 margin-bottom: 0;
 }
 
 .tt-location{
 display: none;
 }
-.tt-section-2.tt-page-2{
+
+#section-2-1.tt-page{
 display: none;
 }
 
-.tt-general-info{
+#section-2-1.tt-page-2{
+display: none;
+}
+
+
+#section-1-2.tt-general-info{
 background-image: url('../files/world-bank-header.jpg');
 background-position: center;
 }
-.tt-section-3.tt-page-2{
+
+#section-1-2.tt-page-2{
 background: url('../files/tt-resources-header.jpg');
 background-position: top;
 background-repeat: no-repeat;
 }
 
-.tt-page .tt-section-1{
+#section-1.tt-page{
 border: none;
 height: 125px;
 padding: 50px 75px;
@@ -411,9 +440,10 @@ margin: 50px 0;
 }
 
 .tt-resources p{
-padding: 7px 0;
+padding: 7px 0 !important;
 line-height: 1.25;
 }
+
 .tt-resources h2{
 font-size: 18px;
 color: black;
@@ -437,11 +467,12 @@ color: black;
 border-bottom: solid 1px #EEA105;
 }
 
-.tt-section-1 h2{
+#section-1 h2{
 color: white;
 font-size: 24px;
 text-align: center;
 }
+
 .tt-resources a:hover{
 color: #EEA105;
 }
@@ -466,18 +497,18 @@ color: white;
 }
 
 
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 700px){
 .tt-page{
 margin-bottom: 50px !important;
 }
 
-.tt-page .tt-section-1{
+#section-1.tt-page{
 height: 400px;
 }
 
-.tt-section-1 h2{
+#section-1 h2{
 color: white;
-margin: 25% 0;
+padding: 150px;
 font-size: 35px;
 text-align: center;
 height: 50%;
@@ -492,9 +523,12 @@ display: none;
 }
 
 
-.tt-page.tt-section-4.tt-section{
+.tt-page.section-2-2.tt-section{
 padding: 0;
 }
 
 
 }
+
+
+</style>
