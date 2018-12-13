@@ -220,6 +220,11 @@ font-weight: normal;
 padding: 10px 0;
 }
 
+.tt-agenda-button{
+text-transform: uppercase;
+letter-spacing: 1.05px;
+}
+
 .tt-contact::before{
 content: url('../files/tt-mail-icon.svg');
 vertical-align: middle;
@@ -304,10 +309,6 @@ height: 50%;
 margin: 25% 0;
 }
 
-.tt-agenda-button{
-text-transform: uppercase;
-letter-spacing: 1.05px;
-}
 
 #section-1{
 width: 100vw;
