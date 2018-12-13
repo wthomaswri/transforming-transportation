@@ -299,6 +299,14 @@ top: 150px;
 
 .tt-theme{
 font-size: 30px;
+padding: 0px 75px !important;
+height: 50%;
+margin: 25% 0;
+}
+
+.tt-agenda-button{
+text-transform: uppercase;
+letter-spacing: 1.05px;
 }
 
 #section-1{
