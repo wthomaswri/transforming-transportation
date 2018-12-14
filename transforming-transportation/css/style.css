@@ -489,7 +489,7 @@ color: #EEA105;
 .tt-download{
 border: solid #EEA105 0.5px;
 border-radius: 15px;
-padding: 10px;
+padding: 10px !important;
 margin: 25px 0;
 width: 175px;
 text-align: center;
@@ -509,7 +509,6 @@ color: white;
 }
 
 .tt-about{
-width: 75%;
 margin: 15px 0;
 }
 
@@ -541,4 +540,9 @@ display: none;
 .tt-page.section-2-2.tt-section{
 padding: 0;
 }
+
+.tt-about{
+width: 75%;
+}
+
 }
