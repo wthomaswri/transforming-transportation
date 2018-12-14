@@ -201,7 +201,7 @@ font-size: 20px;
 color: black;
 font-weight: lighter;
 letter-spacing: 1px;
-line-height: 1.25;
+line-height: 1.4;
 }
 
 .tt-date{
@@ -224,13 +224,26 @@ vertical-align: middle;
 padding: 5px;
 }
 
-.tt-hash{
+.tt-connect{
 font-family: 'Helvetica', Arial, sans-serif;
-font-weight: bold !important;
-font-size: 20px;
-color: grey;
+font-weight: normal !important;
+font-size: 16px;
+color: black;
+text-transform: uppercase;
+}
+.tt-connect a{
+color: black;
 }
 
+.tt-hash{
+color: #EEA105;
+}
+
+.tt-hr{
+border-top: solid 1px #EEA105;
+margin: 20px 0;
+width: 75%;
+}
 
 @media screen and (min-width: 700px){
 
@@ -457,6 +470,10 @@ color: black;
 border-bottom: solid 1px #EEA105;
 }
 
+.tt-highlighted{
+border-bottom: solid 1px #EEA105;
+}
+
 #section-1 h1{
 font-weight: lighter;
 letter-spacing: 1.05px;
@@ -489,6 +506,11 @@ background-color: #EEA105;
 
 .tt-download:hover a{
 color: white;
+}
+
+.tt-about{
+width: 75%;
+margin: 15px 0;
 }
 
 
