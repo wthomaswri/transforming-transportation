@@ -416,12 +416,15 @@ display: none;
 #section-1-2.tt-general-info{
 background-image: url('../files/world-bank-header.jpg');
 background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #section-1-2.tt-page-2{
 background: url('../files/tt-resources-header.jpg');
-background-position: -530px -61px;
+background-position: center;
 background-repeat: no-repeat;
+background-size: cover;
 }
 
 #section-1.tt-page{
@@ -546,10 +549,6 @@ display: none;
 padding: 0;
 }
 
-#section-1-2.tt-page-2{
-background: url('../files/tt-resources-header.jpg');
-background-position: center;
-}
 
 .tt-about{
 width: 75%;
