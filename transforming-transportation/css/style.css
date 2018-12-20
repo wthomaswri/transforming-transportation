@@ -420,7 +420,7 @@ background-position: center;
 
 #section-1-2.tt-page-2{
 background: url('../files/tt-resources-header.jpg');
-background-position: top;
+background-position: -530px -61px;
 background-repeat: no-repeat;
 }
 
@@ -544,6 +544,11 @@ display: none;
 
 .tt-page.section-2-2.tt-section{
 padding: 0;
+}
+
+#section-1-2.tt-page-2{
+background: url('../files/tt-resources-header.jpg');
+background-position: center;
 }
 
 .tt-about{
