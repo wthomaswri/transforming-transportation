@@ -92,6 +92,8 @@ width: 20px;
 vertical-align: middle;
 }
 
+/*PARTNER LOGOS*/
+
 #tt-logos{
 max-width: 50%;
 margin: 25px auto;
@@ -106,7 +108,7 @@ vertical-align: middle;
 display: block;
 }
 
-.tt-partners img{
+.tt-partners-block img{
 width: 125px;
 padding: 25px 0;
 margin: 0 auto;
@@ -121,6 +123,27 @@ padding: 25px 0;
 margin: 0 auto;
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
+}
+
+.tt-partners-table{
+display: none;
+}
+
+.tt-partners-fixed-height{
+height: 85px;
+width: auto !important;
+}
+
+.tt-hosts{
+font-size: 18px !important;
+font-weight: lighter;
+}
+
+#tt-logos h2{
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: underline;
+letter-spacing: 1px;
 }
 
 
@@ -250,6 +273,12 @@ margin: 20px 0;
 width: 75%;
 }
 
+.tt-home-hr{
+border-top: solid 1px #EEA105;
+margin: 20px 0;
+width: 100%;
+}
+
 @media screen and (min-width: 700px){
 
 /*HEADER*/
@@ -280,30 +309,6 @@ margin: 9px 0 0 0;
 nav ul li{
 display: inline-block;
 padding: 0px 15px;
-}
-
-#tt-logos{
-max-width: 100%;
-padding: 25px 0;
-margin: 0;
-}
-
-#tt-logos h2{
-padding-top: 25px;
-}
-
-#tt-logos img{
-display: inline-block;
-padding: 25px 15px;
-}
-
-.tt-organizers{
-max-width: 70%;
-margin: 0 auto 20px auto;
-}
-
-.tt-partners{
-padding: 0 25px;
 }
 
 /*BODY*/
@@ -362,6 +367,67 @@ padding: 20px 0px;
 }
 }
 
+
+/*FOR PARTNER LOGOS ONLY*/
+
+@media screen and (min-width: 1300px){ 
+.tt-partners-table{
+display: block;
+}
+
+.tt-partners-block{
+display: none;
+}
+
+.tt-partners-table img{
+width: 6vw;
+padding: 15px 40px 15px 40px;
+margin: 0 auto;
+display: block;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+
+#tt-logos{
+max-width: 100%;
+padding: 25px 0;
+margin: 0;
+}
+
+.tt-organizers{
+max-width: 50%;
+margin: 0 auto 20px auto;
+}
+
+.tt-organizers img{
+display: inline-block !important;
+padding: 0 15px;
+width: 10vw;
+}
+
+.tt-partners{
+max-width: 90%;
+margin: 0 auto;
+padding: 0 25px;
+}
+
+.tt-sponsor img{
+width: 8vw;
+height: auto !important;
+}
+
+.tt-partners-secondary{
+height: 1.5vw !important;
+width: auto !important;
+padding: 0px 0px !important;
+}
+
+.tt-partners-fixed-height{
+height: 4vw;
+width: auto !important;
+}
+}
+
 @media screen and (max-width: 1132px) and (min-width: 699px){
 
 #section-1{
@@ -385,7 +451,7 @@ width: 60vw;
 }
 
 .tt-theme{
-font-size: 2.75vw;
+font-size: 2.5vw;
 }
 
 .tt-date{
