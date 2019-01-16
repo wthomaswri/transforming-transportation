@@ -279,6 +279,21 @@ margin: 20px 0;
 width: 100%;
 }
 
+.tt-registration{
+color: #EEA015;
+font-size: 14px;
+}
+
+.tt-registration a{
+color: black;
+font-weight: normal;
+}
+
+.tt-registration a:hover{
+color: #EEA015;
+transition: all ease 1s;
+}
+
 @media screen and (min-width: 700px){
 
 /*HEADER*/
