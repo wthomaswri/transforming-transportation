@@ -579,7 +579,7 @@ color: #EEA105;
 border: solid #EEA105 0.5px;
 border-radius: 15px;
 padding: 10px !important;
-margin: 25px 0;
+margin: 25px 0px;
 width: 175px;
 text-align: center;
 font-size: 16px;
@@ -630,9 +630,13 @@ display: none;
 padding: 0;
 }
 
-
 .tt-about{
 width: 75%;
+}
+
+.tt-download{
+display: inline-block;
+margin: 25px 20px 25px 0px;
 }
 
 }
