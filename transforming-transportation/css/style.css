@@ -618,12 +618,12 @@ margin-bottom: 50px !important;
 height: 400px;
 }
 
-#section-1 h1{
+/*#section-1 h1{
 color: white;
 margin: 125px 0px;
 font-size: 35px;
 text-align: center;
-}
+}*/
 
 .tt-resources{
 padding: 50px 25px !important;
@@ -644,6 +644,27 @@ width: 75%;
 .tt-download{
 display: inline-block;
 margin: 25px 20px 25px 0px;
+}
+}
+
+@media only screen and (min-width: 851px){
+#section-1 h1{
+color: white;
+margin: 150px 0px;
+font-size: 35px;
+text-align: center;
+}
+}
+
+
+
+@media only screen and (min-width: 701px) and (max-width: 850px){
+
+#section-1 h1{
+color: white;
+margin: 125px 0px;
+font-size: 26px;
+text-align: center;
 }
 }
 
