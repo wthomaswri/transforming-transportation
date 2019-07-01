@@ -620,7 +620,7 @@ height: 400px;
 
 #section-1 h1{
 color: white;
-padding: 150px 0px;
+margin: 125px 0px;
 font-size: 35px;
 text-align: center;
 }
@@ -654,6 +654,10 @@ margin: 25px 20px 25px 0px;
 margin-bottom: 50px;
 }
 
+#tt-member > div{
+margin-bottom: 25px;
+}
+
 
 .tt-member-block-header{
 color: white;
@@ -668,7 +672,6 @@ font-weight: bold;
 
 .tt-member-block-header p:nth-child(1){
 font-weight: lighter;
-height: 50px;
 font-size: 20px;
 }
 
@@ -731,14 +734,19 @@ flex: 1;
 -webkit-box-flex: 1;
 -webkit-flex: 1; 
 -ms-flex: 1;  
-padding-right: 5px;
+padding-right: 10px;
+padding-bottom: 0px;
 }
 
 .tt-member-block-header{
 height: 125px;
 }
 
+.tt-member-block-header p:nth-child(1){
+height: 65px;
+}
+
 .tt-member-block-header:after{
-top: 25px;
+top: 10px;
 }
 }
