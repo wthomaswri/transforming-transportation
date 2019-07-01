@@ -720,7 +720,7 @@ color: #fcd900;
 color: #9b9b9b;
 }
 
-@media screen and (min-width: 1150px){
+@media screen and (min-width: 1200px){
 
 #tt-member{
 display: flex;
@@ -734,7 +734,7 @@ flex: 1;
 -webkit-box-flex: 1;
 -webkit-flex: 1; 
 -ms-flex: 1;  
-padding-right: 10px;
+padding-right: 20px;
 padding-bottom: 0px;
 }
 
