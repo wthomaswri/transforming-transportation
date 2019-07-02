@@ -709,7 +709,7 @@ font-size: 22px;
 }
 
 .tt-knowledge .tt-member-block-header{
-background-color: #c51f24;
+background-color: grey;
 }
 
 .tt-development .tt-member-block-header{
@@ -717,16 +717,16 @@ background-color: #e98300;
 }
 
 .tt-parallel .tt-member-block-header{
-background-color: #fcd900;
+background-color: #f0ba00;
 }
 
 .tt-member-sponsor .tt-member-block-header{
-background-color: #9b9b9b;
+background-color: #c51f24;
 }
 
 
 .tt-knowledge strong{
-color: #c51f24;
+color: grey;
 }
 
 .tt-development strong{
@@ -734,11 +734,11 @@ color: #e98300;
 }
 
 .tt-parallel strong{
-color: #fcd900;
+color: #f0ba00;
 }
 
 .tt-member-sponsor strong{
-color: #9b9b9b;
+color: #c51f24;
 }
 
 @media screen and (min-width: 1200px){
