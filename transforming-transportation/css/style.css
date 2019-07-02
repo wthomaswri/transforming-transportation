@@ -713,11 +713,11 @@ background-color: grey;
 }
 
 .tt-development .tt-member-block-header{
-background-color: #e98300;
+background-color: #f0ba00;
 }
 
 .tt-parallel .tt-member-block-header{
-background-color: #f0ba00;
+background-color: #e98300;
 }
 
 .tt-member-sponsor .tt-member-block-header{
@@ -730,11 +730,11 @@ color: grey;
 }
 
 .tt-development strong{
-color: #e98300;
+color: #f0ba00;
 }
 
 .tt-parallel strong{
-color: #f0ba00;
+color: #e98300;
 }
 
 .tt-member-sponsor strong{
