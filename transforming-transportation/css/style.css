@@ -698,9 +698,10 @@ font-size: 20px;
 
 
 .tt-member-block-header:after{
-content: url('../files/tt-member-page-icon.svg');
+content: url('../files/tt-member-page-icon.png');
 position: relative;
 top: 40px;
+width: 100px;
 }
 
 .tt-member-block-header p:nth-child(2){
@@ -739,6 +740,10 @@ color: #e98300;
 
 .tt-member-sponsor strong{
 color: #c51f24;
+}
+
+.tt-member-contact{
+font-weight: 600;
 }
 
 @media screen and (min-width: 1200px){
