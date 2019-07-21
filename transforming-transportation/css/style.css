@@ -691,6 +691,10 @@ margin-bottom: 25px;
 font-weight: bold;
 }
 
+.tt-resources-bold{
+font-weight: bold;
+}
+
 .tt-member-block-header p:nth-child(1){
 font-weight: lighter;
 font-size: 20px;
