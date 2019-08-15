@@ -564,6 +564,7 @@ color: black;
 
 .tt-page-2 a{
 border-bottom: solid 1px #EEA105;
+word-wrap: break-word;
 }
 
 .tt-highlighted{
