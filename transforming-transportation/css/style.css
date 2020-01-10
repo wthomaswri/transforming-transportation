@@ -118,11 +118,11 @@ filter: grayscale(100%);
 }
 
 .tt-organizers img{
-width: 175px;
+width: 100%;
 padding: 25px 0;
 margin: 0 auto;
-filter: grayscale(100%);
--webkit-filter: grayscale(100%);
+/* filter: grayscale(100%);
+-webkit-filter: grayscale(100%); */
 }
 
 .tt-partners-table{
@@ -410,14 +410,14 @@ margin: 0;
 }
 
 .tt-organizers{
-max-width: 50%;
+max-width: 100%;
 margin: 0 auto 20px auto;
 }
 
 .tt-organizers img{
 display: inline-block !important;
 padding: 0 15px;
-width: 10vw;
+width: 100%;
 }
 
 .tt-partners{
