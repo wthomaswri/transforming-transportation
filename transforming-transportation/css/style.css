@@ -305,7 +305,11 @@ margin-top: 20px;
 width: 200px;
 }
 
-
+.tt-header-grey{
+text-transform: uppercase;
+font-weight: bold;
+color: grey
+}
 
 @media screen and (min-width: 700px){
 
