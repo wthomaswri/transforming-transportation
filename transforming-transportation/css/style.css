@@ -166,7 +166,7 @@ height: 100%;
 }
 
 #section-1-2{
-background-image: url('../files/tt-home-hero-2020.jpg');
+background-image: url('../files/tt-home-hero-2021.jpg');
 background-size: cover;
 background-position: center;
 height: 300px;
@@ -273,6 +273,10 @@ margin: 20px 0;
 width: 75%;
 }
 
+.tt-list{
+margin-left: 25px;
+}
+
 .tt-home-hr{
 border-top: solid 1px #EEA105;
 margin: 20px 0;
@@ -301,14 +305,19 @@ margin: 30px 0;
 .tt-featured-speaker img{
 float: left;
 margin-right: 20px;
-margin-top: 20px;
 width: 200px;
 }
 
 .tt-header-grey{
 text-transform: uppercase;
-font-weight: bold;
-color: grey
+font-weight: 500 !important;
+font-size: 22px !important;
+color: #808080 !important;
+}
+
+.tt-gold{
+color: #EEA105;
+font-weight: 500;
 }
 
 @media screen and (min-width: 700px){
@@ -526,7 +535,7 @@ background-size: cover;
 }
 
 #section-1-2.tt-member{
-background: url('../files/tt-member-header.jpg');
+background: url('../files/tt-member-header-2021.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -765,6 +774,32 @@ color: #c51f24;
 
 .tt-member-contact{
 font-weight: 600;
+}
+
+#tt-stats{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+
+.tt-stats p{
+font-size: 20px;
+}
+
+@media screen and (min-width: 950px){
+
+#tt-stats{
+width: 100%;
+margin: unset;
+text-align: left;
+}
+
+.tt-stats{
+display: inline-block;
+vertical-align: top;
+margin-right: 50px;
+width: calc(24% - 50px);
+}
 }
 
 @media screen and (min-width: 1200px){
