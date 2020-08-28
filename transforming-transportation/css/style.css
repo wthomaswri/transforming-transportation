@@ -45,6 +45,10 @@ div#tt-top-banner a{
 color: white !important; 
 }
 
+div#tt-top-banner a:hover{
+text-decoration: underline;
+}
+
 /*HEADER*/
 
 header{
