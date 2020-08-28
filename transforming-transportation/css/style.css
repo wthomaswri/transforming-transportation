@@ -297,6 +297,11 @@ width: 75%;
 
 .tt-list{
 margin-left: 25px;
+color: #808080;
+}
+
+.tt-list p{
+color: black !important;
 }
 
 .tt-home-hr{
